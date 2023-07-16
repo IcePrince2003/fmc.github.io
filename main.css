@@ -78,6 +78,7 @@ html
     width: 1200px;
     background-color: white;
     display: flex;
+    padding-bottom: 50px
 }
 .list:hover
 {
