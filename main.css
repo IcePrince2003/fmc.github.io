@@ -1,0 +1,104 @@
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header
+{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+#navigation
+{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+#navigation li
+{
+    display: inline-block;
+}
+#navigation li a
+{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 60px;
+    padding: 0px 20px;
+    display: block;
+}
+.subnavigation
+{
+    position: absolute;
+    list-style-type: none;
+    padding: 0px;
+    background-color: white;
+}
+#navigation .subnavigation
+{
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#navigation li a:hover
+{
+    color: blue;
+    background: lightgrey;
+}
+#slider
+{
+    width: 98.85vw;
+    height: 100vh;
+    background: url("image-source/FMC-avatar.jpg") top center / cover no-repeat;
+}
+#navigation li:hover .subnavigation
+{
+    display: block;
+}
+.searching
+{
+    float: right;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 0px 20px 0px;
+}
+.searching:hover
+{
+    background: darkblue;
+    cursor: pointer;
+}
+.content
+{
+    width: 1200px;
+    background-color: white;
+    display: flex;
+}
+.list:hover
+{
+    border-left-color: blue;
+    border-width: 0px;
+    border-left-width: 10px;
+    border-style: solid;
+}
+.title
+{
+    padding: 40px; text-decoration: none; color: blue;  font-size: 60px;
+    padding-left: 20px;
+}
+#footer
+{
+    width: 100%;
+    height: 150px;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}

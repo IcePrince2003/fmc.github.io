@@ -1,0 +1,25 @@
+.news
+{
+    display: flex;
+    flex-direction: row;
+}
+.title
+{
+    font-size: 40px;
+    color: black;
+    width: 850px;
+    padding: 0px;
+    padding-left: 20px;
+    margin: 0px;
+}
+.content
+{
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover .news h2.title
+{
+    text-decoration: underline;
+}
